@@ -10,7 +10,7 @@
 	</ContentPage.Padding>
 	<ContentPage.Content>
 		<StackLayout>
-			<Label Text="Welcome here" />
+			<Label Text="{Binding WelcomeMessage}" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

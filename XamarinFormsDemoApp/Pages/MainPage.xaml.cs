@@ -7,6 +7,8 @@ namespace XamarinFormsDemoApp
 		public MainPage()
 		{
 			InitializeComponent();
+
+			BindingContext = new MainPageViewModel();
 		}
 	}
 }
